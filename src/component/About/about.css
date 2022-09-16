@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+    border: 1px solid rgb(102, 96, 96);
+    /* margin: 1vmax; */
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+    width: 70%;
+}
+.image{
+    width: 30%;
+    padding: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    width: 100%;
+    object-fit: cover;
+}
+.about{
+    width: 70%;
+    padding: 1vmax;
+}
+.title{
+    font-size: 1.5vmax;
+    font-weight: 600;
+    color: rgb(35, 34, 34);
+}
+.trailer, .episode, .rating{
+    font-size: 1vmax;
+    font-weight: 600;
+    color: rgb(35, 34, 34);
+}
+.synposis{
+    font-size: 1vmax;
+    font-weight: 400;
+    color: rgb(9, 9, 9);
+}
+.synposis span{
+    color: black;
+    font-weight: 600;
+}
